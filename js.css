@@ -1,0 +1,37 @@
+body{
+    background: #000;
+    color: aliceblue;
+   height: 100vh;
+    width: 50vw;
+    /*display: flexbox;
+    justify-content: center;
+    align-items: center;
+    */
+}
+header{
+ 
+ 
+ 
+ background: #d15b5b;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.box{
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+.box:hover{
+    background: #332d2d;
+}
+#val{
+    width: 100%;
+}
+
+
